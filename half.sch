@@ -12182,7 +12182,6 @@ Based on the following sources:
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="U$59" library="microbuilder" deviceset="VBUS" device=""/>
-<part name="U$60" library="microbuilder" deviceset="VBUS" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
@@ -12389,7 +12388,6 @@ Based on the following sources:
 <instance part="GND9" gate="1" x="226.06" y="101.6"/>
 <instance part="+3V5" gate="G$1" x="226.06" y="111.76" rot="MR0"/>
 <instance part="U$59" gate="G$1" x="139.7" y="149.86"/>
-<instance part="U$60" gate="G$1" x="162.56" y="63.5"/>
 <instance part="GND11" gate="1" x="208.28" y="134.62"/>
 <instance part="GND13" gate="1" x="208.28" y="157.48"/>
 <instance part="+3V6" gate="G$1" x="200.66" y="129.54" rot="MR0"/>
@@ -12964,12 +12962,6 @@ Based on the following sources:
 <wire x1="132.08" y1="144.78" x2="139.7" y2="144.78" width="0.1524" layer="91"/>
 <pinref part="U$59" gate="G$1" pin="VBUS"/>
 <junction x="139.7" y="144.78"/>
-</segment>
-<segment>
-<pinref part="U4" gate="U1" pin="UVCC"/>
-<wire x1="165.1" y1="55.88" x2="162.56" y2="55.88" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="55.88" x2="162.56" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="U$60" gate="G$1" pin="VBUS"/>
 </segment>
 </net>
 <net name="VBAT" class="0">
